@@ -1,0 +1,61 @@
+/*
+ * Globals
+ */
+
+
+/* Custom default button */
+.btn-light,
+.btn-light:hover,
+.btn-light:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+}
+
+
+/*
+ * Base structure
+ */
+
+body {
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+}
+
+.cover-container {
+  max-width: 100%;
+}
+
+
+
+/*
+ * Header
+ */
+
+
+/* Estilos para a navegação na masthead */
+.nav-masthead .nav-link {
+  color: rgba(255, 255, 255, 0.5) !important;
+  border-bottom: 0.25rem solid transparent;
+  margin-bottom: 25px;
+  outline: none; /* Remove a borda de destaque ao clicar */
+  text-decoration: none; /* Remove o sublinhado */
+}
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, 0.25);
+  outline: none; /* Remove a borda de destaque ao focar */
+}
+.nav-masthead .nav-item {
+  outline: none; /* Remove a borda azul ao focar no nav-item */
+  text-decoration: none !important;
+}
+.nav-masthead .nav-item + .nav-item {
+  margin-left: 1rem;
+
+}
+.nav-masthead .active {
+  color: #fff !important;
+  border-bottom-color: #fff !important;
+
+}
+
+

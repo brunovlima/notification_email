@@ -1,0 +1,26 @@
+{
+    "name": "bruno/php",
+    "description": "This library is designed to send emails using the phpMailer library. Executing this action in an uncomplicated manner is essential for any system.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Notification\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Bruno Lima",
+            "email": "bruno.lima80@Fatec.sp.gov.br",
+            "homepage": "https://www.linkedin.com/in/li2/",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "phpmailer/phpmailer": "6.9.1"
+    },
+    "config": {
+        "vendor-dir": "lib_notif_ext"
+    }
+}
