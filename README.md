@@ -24,6 +24,14 @@ $email->sendEmail("Subject", "Content", "reply@email.com", "Replay Name", "addre
 
 Note that the entire email sending configuration is using the magic constructor method! Once the constructor method is invoked within your application, your system will be ready to perform the dispatches.
 
+Version 1.0.0 development 2024-04
+----------------------------------
+
+Sender email settings:
+![image](https://github.com/brunovlima/notification_email/assets/97028458/72a52d79-5b76-447b-8d91-3776a6ae353c)
+
+Recipient email settings:
+![image](https://github.com/brunovlima/notification_email/assets/97028458/3cfe096b-7049-4b2b-ba31-a0630df376c6)
 
 ### Developers
 * [Bruno Vieira] - Desenvolvedor desta biblioteca e Programador Laravel, PHP, Python, Angular, Flask, JavaScript, Html, Css, Sass
